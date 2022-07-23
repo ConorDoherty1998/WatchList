@@ -9,8 +9,9 @@ const AppStyles = StyleSheet.create({
     },
     formWrap: {
         flexGrow: 1,
-        padding: 20,
-        justifyContent: 'center'
+        paddingHorizontal: 20,
+        paddingBottom: 0,
+        justifyContent: 'flex-end'
     },
     textInput: {
         height: 60,

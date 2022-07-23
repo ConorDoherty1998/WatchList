@@ -11,7 +11,7 @@ type AuthProps = {
 
 const Auth: React.FC<AuthProps> = ({ navigation }) => {
     return (
-        <View style={ AppStyles.container }>
+        <View style={ [AppStyles.container, {justifyContent: 'space-around'}] }>
             <StatusBar style="light" />
             <View style={ Styles.imageWrap }>
                 <Image
@@ -19,7 +19,7 @@ const Auth: React.FC<AuthProps> = ({ navigation }) => {
                     source={ require('../../../../assets/Logo_Main_Dark.png') }  
                 />
             </View>
-            <View style={ AppStyles.formWrap }>
+            <View style={ [AppStyles.formWrap, {justifyContent: 'center'}] }>
                 <Ripple
                     rippleDuration={1000}
                     style={ AppStyles.button }

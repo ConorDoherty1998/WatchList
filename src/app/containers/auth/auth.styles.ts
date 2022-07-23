@@ -1,10 +1,10 @@
 import { StyleSheet } from 'react-native';
 
-const Styles = StyleSheet.create({
+const AuthStyles = StyleSheet.create({
     headingWrap: {
-        padding: 30,
-        justifyContent: 'flex-end',
-        height: '50%',
+        paddingHorizontal: 30,
+        // height: '50%',
+        justifyContent: 'center',
         width: '100%'
     },
     heading: {
@@ -14,4 +14,4 @@ const Styles = StyleSheet.create({
     }
 });
 
-export { Styles }
+export { AuthStyles }
